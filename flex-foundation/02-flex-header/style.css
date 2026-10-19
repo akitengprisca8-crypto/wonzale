@@ -1,0 +1,33 @@
+.header{
+    background:peachpuff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+a{
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+}
+
+.text{
+    color: rgb(238, 48, 48);
+    background: rgb(245, 231, 231);
+    font-size: 48px;
+    text-align: center;
+   padding: 4px 32px;
+   font-weight: 900;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
