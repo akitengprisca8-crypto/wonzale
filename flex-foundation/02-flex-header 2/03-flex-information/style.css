@@ -1,6 +1,7 @@
 body{
     margin: 20px;
     background: whitesmoke;
+    text-align: center;
 }
 
 .title{
@@ -12,22 +13,26 @@ body{
 
 }
 
+img {
+  width: 100px;
+  height: 100px;
+   object-fit: cover;
+}
+
 .header{
     display: flex;
     padding: auto;
 }
 
-.plants{
-    list-style: none;
-    display: flex;
-    gap: 52px;
-    text-wrap: wrap;
-    justify-content: center;
-
-    align-items: center;
-    text-align: center;
-    flex: 1;
-    
-  
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
 }
+.flex{
+    max-width: 200px;
+}
+
+
+
 
