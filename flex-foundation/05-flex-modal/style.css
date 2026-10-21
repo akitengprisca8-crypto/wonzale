@@ -1,57 +1,95 @@
-body{
-    background: grey;
-    box-sizing: border-box;
-    border: none;
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    padding:40px;
-}
-.container{
-   background: whitesmoke;
-   width: 400px;
-   height: 200px;
+body {
+   background-color: grey;
+   font-family: Arial, sans-serif;
    align-items: center;
-   padding: 8px;
-   margin: 40px;
-   flex: 1;
-   border-radius: 15px;
-  
+   display: flex;
+   justify-content: center;
 }
- .flex{
-    display: flex;
-    gap: 15px;
-    list-style: none;
-    align-items: center;
- }
 
- h1{
-    font-weight: bold;
-    font-size: 18px;
- }
-
- .text{
-    color: black;
-    font-size: 15px;
-    padding-top:0px;
-    margin-left: 50px;
- }
- .cont{
-    background: blue;
-    color: white;
-    border: none;
-     margin-left: 50px;
-    
- }
-.canc{
-    background: whitesmoke;
-    color: blue;
-    border: 1px solid gray;
-   
+.container {
+   background-color: white;
+   padding: 30px;
+   border-radius: 8px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   margin: 60px;
+   width: 520px;
+   height: 190px;
+   align-items: center;
 }
-.cont,.canc{
-     border-radius: 6px;
-     width: 80px;
-     height: 30px;
-     cursor: pointer;
-     
+
+.header {
+   display: flex;
+   padding: 2px;
+
+   justify-content: space-between;
+   gap: 5px;
+}
+
+.icon {
+   background: rgb(143, 143, 249);
+   color: blue;
+   border-radius: 50%;
+   font-size: 30px;
+
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.title {
+   font-weight: bold;
+   align-items: center;
+   font-size: 10px;
+   padding: 1px;
+}
+
+.x-button {
+   background: rgb(195, 195, 211);
+   color: rgb(65, 65, 76);
+   border-radius: 50%;
+
+   width: 25px;
+   height: 25px;
+   text-align: center;
+   font-weight: 900;
+   cursor: pointer;
+}
+
+.icon,
+.x-button {
+   margin: 0;
+   flex-shrink: 0;
+}
+
+.text {
+   font-size: 14px;
+   margin-left: 40px;
+   padding: 0px;
+}
+
+.Continue,
+.Cancel {
+   gap: 10px;
+   padding: 4px;
+   cursor: pointer;
+   align-items: flex-start;
+   border-radius: 6px;
+   text-align: center;
+   width: 80px;
+   height: 30px;
+}
+
+.Continue {
+   background-color: rgb(55, 55, 243);
+   color: white;
+   border: none;
+   margin-left: 40px;
+}
+
+.Cancel {
+   background: whitesmoke;
+   color: blue;
+   border: 1px solid rgb(157, 157, 170);
 }
