@@ -2,6 +2,7 @@ body {
    margin: 40px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    height: 100vh;
+   background: gre;
 }
 
 .title {
@@ -12,12 +13,10 @@ body {
    padding: 10px 0 10px
 }
 
-.flex,
-.text {
+.container {
    display: flex;
-   flex-direction: column;
-   justify-content: center;
-   flex-wrap: wrap;
+   flex-direction: row;
+   gap: 20px;
 }
 
 a {
@@ -27,13 +26,17 @@ a {
    display: flex;
    flex-direction: column;
    width: 200px;
-
+   flex: 2;
+   padding: 16px;
+   ;
 }
 
-.text {
+.grid-container {
    display: grid;
-   grid-template-columns: repeat(2);
-   grid-template-rows: repeat(3);
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2);
+   gap: 10px;
+   padding: 48px;
    flex-wrap: wrap;
 }
 
@@ -41,4 +44,8 @@ a {
    text-align: center;
    background: rgb(221, 215, 215);
    padding: 10px
+}
+
+.paragraph {
+   flex: 2;
 }
