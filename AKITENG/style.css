@@ -1,44 +1,47 @@
-body{
-    background:gray;
-    font-family:sans-serif;
+body {
+    background: gray;
+    font-family: sans-serif;
+    height: 100vh;
 }
 
-.card{
-    width:600px;
-    margin:16px auto;
-    background:rgb(247, 229, 229);
+.card {
+    width: 600px;
+    margin: 16px auto;
+    background: rgb(255, 253, 253);
     padding: 30px 30px;
 }
 
-.title,.text,.button-container{
-    background:rgb(127, 184, 241);
+.title,
+.text,
+.button-container {
+    background: rgb(50, 148, 246);
     text-align: center;
 }
 
-.text,.button-container{
-    color: rgb(10, 68, 10);
+.text,
+.button-container {
+    color: rgb(69, 72, 69);
     font-weight: 900;
 }
 
-  .button{
-    background: peachpuff;
-    color: rgb(38, 110, 5);
+.button {
+    background: rgb(216, 205, 195);
+    color: rgb(16, 205, 238);
     font-weight: bold;
-    border: 2px solid rgb(233, 11, 59);
+    border: 2px solid rgb(62, 210, 185);
     width: 100px;
     height: 30px;
     cursor: pointer;
     border-radius: 10px;
-  }
+}
 
-  .button-container{
+.button-container {
     display: flex;
     gap: 20px;
     justify-content: center;
     padding-bottom: 10px;
-  }
-  .title{
-      border-radius: 20px;
-  }
+}
 
-
+.title {
+    border-radius: 20px;
+}
