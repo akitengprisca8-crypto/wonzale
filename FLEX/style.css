@@ -1,12 +1,17 @@
+body {
+  height: 100vh;
+  margin: 60px;
+}
+
 .container {
   height: 140px;
   padding: 16px;
   background: plum;
   border: 4px solid indigo;
   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .item {
@@ -14,5 +19,4 @@
   height: 60px;
   border: 4px solid darkslategray;
   background: skyblue;
- 
 }
