@@ -3,7 +3,7 @@ body {
    margin: 50px;
    flex-direction: column;
    display: flex;
-
+   height: 100vh;
 }
 
 .container {
@@ -26,9 +26,9 @@ a {
 }
 
 .main-content {
-   margin: 80px;
-   padding-bottom: 15px;
-   padding-top: 100px;
+   margin: 0 auto;
+   justify-content: center;
+   padding-top: 40px;
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -38,9 +38,6 @@ a {
 img {
    width: 450px;
    height: 150px;
-   display: flex;
-   justify-content: center;
-
 }
 
 .search-input {
