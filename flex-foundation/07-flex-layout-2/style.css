@@ -9,40 +9,50 @@ body {
    background: purple;
    font-size: 32px;
    color: white;
-   padding: 10px 10px;
+   padding: 16px;
    margin-top: 16px;
 }
 
 .container {
    display: flex;
    flex-direction: row;
-   gap: 8px;
    flex: 1;
-   min-height 100vh;
+   gap: 40px;
+}
+
+.links {
+   background: blue;
+   display: flex;
+   width: 100px;
+
+   flex: 1;
+   padding: 16px;
+   flex-shrink: 0;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   line-height: 1.6;
 }
 
 a {
-   text-decoration: none;
    color: white;
-   background: blue;
-   display: flex;
-   flex-direction: column;
-   font-size: 40px;
-
-   width: 300px;
-   flex: 2;
-   padding: 16px;
-   box-sizing: border-box;
+   text-decoration: none;
+   font-size: 24px;
 }
+
 
 .grid-container {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   gap: 10px;
+   gap: 20px;
    padding: 48px;
    flex-wrap: wrap;
-   font-size: 18px;
-   align-items: stretch;
+   font-size: 20px;
+   flex: 1;
+
 }
 
 .grid-item {
@@ -50,15 +60,14 @@ a {
    box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
    border-radius: 8px;
    padding: 30px;
-   width: 300px;
-   height: 150px;
+   width: 400px;
+   height: 190px;
 }
 
 .footer {
    text-align: center;
    background: rgb(221, 215, 215);
-   padding: 16px;
-   margin-bottom: 0;
+   padding: 20px;
 }
 
 .paragraph {
